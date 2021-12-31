@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/blackjacj.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form" style="display: block">
+      <div class="login-design">
+        <h1 class="welcome">welcome</h1>
+        <h2>let's play blackjack</h2>
+        <div class="gamestart-btn" style="display: block">
+          <button class="new-game greet-btn">new game</button>
+          <button class="load-game greet-btn">load game</button>
+        </div>
+        <form action="login" class="login-form" style="display: none">
+          <input class="player-name" type="text" placeholder="name" />
+          <input class="player-surname" type="text" placeholder="surname" />
+          <input class="player-money" type="number" placeholder="money" />
+          <input class="save-info" type="button" value=" submit" />
+        </form>
+      </div>
+    </div>
+    <div class="design">
+      <div class="head">
+        <h1 class="header">blackjacj</h1>
+        <h2 class="bet-message">you bet:</h2>
+      </div>
+      <div class="container">
+        <div class="player">
+          <h1 class="player-full-name">player name</h1>
+          <span class="cards">
+            <p class="cards-el">cards:</p>
+            <p class="sum-el">sum:</p>
+          </span>
+
+          <p class="gamer"></p>
+        </div>
+      </div>
+      <div class="sec-container">
+        <div class="dealer">
+          <h1>dealer</h1>
+          <p class="dealer-cards">cards:</p>
+          <p class="dealer-sum">sum:</p>
+        </div>
+      </div>
+      <div class="bank">
+        <p class="player-bank"></p>
+        <button class="start game-btn">start game</button>
+        <button class="new-card game-btn">hit</button>
+        <button class="finish-round game-btn">stand</button>
+        <div class="bet">
+          <button
+            style="display: block"
+            onclick="value1()"
+            class="bet-button-1"
+          >
+            1
+          </button>
+          <button
+            style="display: block"
+            onclick="value2()"
+            class="bet-button-2"
+          >
+            2
+          </button>
+          <button
+            style="display: block"
+            onclick="value3()"
+            class="bet-button-5"
+          >
+            5
+          </button>
+          <button
+            style="display: block"
+            onclick="value4()"
+            class="bet-button-10"
+          >
+            10
+          </button>
+          <button
+            style="display: block"
+            onclick="value5()"
+            class="bet-button-50"
+          >
+            50
+          </button>
+          <button
+            style="display: block"
+            onclick="value6()"
+            class="bet-button-100"
+          >
+            100
+          </button>
+          <button
+            style="display: block"
+            onclick="value7()"
+            class="bet-button-500"
+          >
+            500
+          </button>
+          <button
+            style="display: block"
+            onclick="value8()"
+            class="bet-button-1000"
+          >
+            1000
+          </button>
+          <button
+            style="display: block"
+            onclick="value9()"
+            class="bet-button-5000"
+          >
+            5000
+          </button>
+          <button
+            style="display: block"
+            onclick="value10()"
+            class="bet-button-10000"
+          >
+            10000
+          </button>
+          <button
+            style="display: block"
+            onclick="value11()"
+            class="bet-button-50000"
+          >
+            50000
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../js/blackjack.js"></script>
+  </body>
+</html>
